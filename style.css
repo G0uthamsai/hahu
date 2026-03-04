@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* Form container */
+.container {
+  width: 300px;
+  margin: 100px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  width: 95%;
+  padding: 10px;
+  background: #4facfe;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #00c6ff;
+}
+
+/* Navbar */
+nav {
+  background: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
